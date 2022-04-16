@@ -1,0 +1,37 @@
+{
+  "id": "boolean",
+  "type": "SharedSlice",
+  "name": "Boolean",
+  "description": "Boolean",
+  "variations": [
+    {
+      "id": "default",
+      "name": "Default",
+      "docURL": "...",
+      "version": "sktwi1xtmkfgx8626",
+      "description": "Boolean",
+      "primary": {
+        "question": {
+          "type": "StructuredText",
+          "config": {
+            "label": "question",
+            "placeholder": "A nice description of your feature",
+            "allowTargetBlank": true,
+            "multi": "paragraph"
+          }
+        },
+        "bolean": {
+          "type": "Boolean",
+          "config": {
+            "label": "Bolean",
+            "default_value": false,
+            "placeholder_true": "true",
+            "placeholder_false": "false"
+          }
+        }
+      },
+      "items": {},
+      "imageUrl": "https://images.prismic.io/slice-machine/621a5ec4-0387-4bc5-9860-2dd46cbc07cd_default_ss.png?auto=compress,format"
+    }
+  ]
+}

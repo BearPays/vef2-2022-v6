@@ -1,0 +1,21 @@
+{
+  "id": "7e339aa7-905f-47c3-9a56-372718b08b4d",
+  "uid": "et-illum-nam",
+  "type": "homepage",
+  "data": {
+    "title": [
+      {
+        "type": "paragraph",
+        "text": "Excepteur eiusmod aliqua aliquip qui eu velit laboris est Lorem sint laborum. Aliqua amet aliquip consequat veniam officia id voluptate ea ut veniam qui dolore.",
+        "spans": []
+      }
+    ],
+    "content": [
+      {
+        "type": "paragraph",
+        "text": "Duis ad mollit labore amet do consequat consectetur laborum. In non laboris aliqua ex excepteur mollit magna minim commodo aliqua.",
+        "spans": []
+      }
+    ]
+  }
+}

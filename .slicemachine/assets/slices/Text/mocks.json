@@ -1,0 +1,17 @@
+[
+  {
+    "variation": "default",
+    "name": "Default",
+    "slice_type": "text",
+    "items": [],
+    "primary": {
+      "text": [
+        {
+          "type": "paragraph",
+          "text": "Adipisicing ea anim sunt.",
+          "spans": []
+        }
+      ]
+    }
+  }
+]
