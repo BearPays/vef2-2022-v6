@@ -3,14 +3,12 @@
 import Accordion from './Accordion';
 import Boolean from './Boolean';
 import Image from './Image';
-import Sites from './Sites';
 import Text from './Text';
 
 export {
 	Accordion,
 	Boolean,
 	Image,
-	Sites,
 	Text,
 };
 
@@ -18,6 +16,5 @@ export const components = {
 	accordion: Accordion,
 	boolean: Boolean,
 	image: Image,
-	sites: Sites,
 	text: Text,
 };

@@ -3,16 +3,20 @@ import { PrismicRichText } from '@prismicio/react'
 
 const Image = ({ slice }) => (
   <section>
-    <span className="title">
       {
-        slice.primary.title ?
-        <PrismicRichText field={slice.primary.title}/>
-        : <h2>Template slice, update me!</h2>
-      }
-    </span>
+        slice.variation.primary.image.url ?(
+
+          <Image src={slice.variation.primary.image.url}
+          alt={slice.variation.primary.image.alt}
+          width={400}
+          height={400}
+          />
+        ):(
+          <h2>Template slice, update me!</h2>
+        )}
     {
-      slice.primary.description ?
-      <PrismicRichText field={slice.primary.description}/>
+      slice.variation.primary.caption ?
+      <PrismicRichText field={slice.variation.primary.caption}/>
       : <p>start by editing this slice from inside Slice Machine!</p>
     }
     <style jsx>{`

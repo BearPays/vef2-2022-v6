@@ -3,16 +3,14 @@ import { PrismicRichText } from '@prismicio/react'
 
 const Boolean = ({ slice }) => (
   <section>
-    <span className="title">
       {
-        slice.primary.title ?
-        <PrismicRichText field={slice.primary.title}/>
+        slice.variation.primary.question ?
+        <PrismicRichText field={slice.variation.primary.question}/>
         : <h2>Template slice, update me!</h2>
       }
-    </span>
     {
-      slice.primary.description ?
-      <PrismicRichText field={slice.primary.description}/>
+      slice.variation.primary.bolean ?
+      <Boolean field={slice.variation.primary.bolean}/>
       : <p>start by editing this slice from inside Slice Machine!</p>
     }
     <style jsx>{`

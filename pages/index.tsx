@@ -16,8 +16,8 @@ export default function Home({homepage, sites}: Props){
   const titles = sites.map
   return (
     <div>
-      <h1><PrismicRichText field={homepage.title} /> </h1>
-      <p><PrismicRichText field={homepage.content}/> </p>
+      <PrismicRichText field={homepage.title} />
+      <PrismicRichText field={homepage.content}/>
       <h1>Síður</h1>
       <ul>
       {sites.map((sites, i) => {
