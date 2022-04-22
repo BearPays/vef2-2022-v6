@@ -10,8 +10,8 @@ const Boolean = ({ slice }) => (
       }
     {
       slice.variation.primary.bolean ?
-      <Boolean field={slice.variation.primary.bolean}/>
-      : <p>start by editing this slice from inside Slice Machine!</p>
+      <h3>yes</h3>
+      : <p>no</p>
     }
     <style jsx>{`
         section {

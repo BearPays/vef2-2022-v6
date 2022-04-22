@@ -1,9 +1,10 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { PrismicRichText } from '@prismicio/react'
+import { asText } from '@prismicio/helpers';
 
 const Accordion = ({ slice }) => (
   <section>
-        <h2>{asText(slice.variation.primary.title)}</h2>
+       <PrismicRichText field={slice.variation.primary.title}/>
         <ul>
           {slice.variation.items.map(
             (value, i) => {
@@ -36,7 +37,7 @@ export function AccordionItemComponent({ item }){
     return (
       <div>
         <div className="acc">
-          <h3>{item.header}</h3>
+        <PrismicRichText field={item.header}/>
           <button onClick={onClick}>{isOpen ? 'Loka' : 'Opna'}</button>
         </div>
         {isOpen && <PrismicRichText field={item.content} />}
